@@ -1,0 +1,129 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Gomathinayagam Sankaranarayanan"
+email: "carthysgn@gmail.com"
+description: >-
+  Gomathinayagam Sankaranarayanan is a researcher with a focus on metagenomics and antimicrobial resistance. 
+  His work spans environments such as Neanderthal microbiomes, ancient permafrost, and the Indian gut microbiome.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Gncarthy
+github_username: GomathiNayagam
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# CV Information
+name: "Gomathinayagam Sankaranarayanan"
+location: "India"
+orcid: "0000-0002-4657-9041"
+research_interests: >-
+  I have extensively explored metagenomes across diverse environments, including Neanderthal microbiomes, 
+  ancient permafrost, and the contemporary Indian gut microbiome. My PhD research focused on antibiotic 
+  resistance genes within these environments, investigating the state of antimicrobial resistance.
+education:
+  - degree: "PhD in Microbial Genomics"
+    institution: "Vellore Institute of Technology"
+    status: "Ongoing"
+    expected_graduation: "November 2024"
+    thesis_title: "Understanding the Conundrum of Antimicrobial Resistance through Palaeomicrobial Genomics"
+  - degree: "MTech by Research"
+    institution: "Vellore Institute of Technology"
+    gpa: "9.0/10.0"
+    graduation: "November 2020"
+    thesis_title: "Prevention of Cancer and Associated Co-morbidity in Rat Models Using Dunaliella salina as Functional Food"
+ experience:
+  - title: "Senior Research Fellow"
+    institution: "Vellore Institute of Technology"
+    duration: "May 2022 - March 2025 (ongoing)"
+    description: >-
+      Investigating if irrational antibiotic usage is a risk factor for colon carcinogenesis. Develop a chemically 
+      induced rat colon carcinogenesis model and analyse the faecal microbiome of rats through whole genome 
+      metagenomic sequencing.
+  - title: "HPLC/GC Executive, Quality Control"
+    institution: "Biocon Pharmaceuticals Limited"
+    duration: "June 2016 - September 2017"
+    description: >-
+      Conducted assay and impurity profiling of intermediate and finished pharmaceutical ingredients using HPLC 
+      and GC, adhering to Good Manufacturing Practices.
+  - title: "Teaching cum Research Assistant"
+    institution: "Vellore Institute of Technology"
+    duration: "November 2017 - November 2019"
+    description: >-
+      Taught lab classes, operated Flow Cytometer instrument, and assisted with animal research, adhering to Good 
+      Laboratory Practices.
+publications:
+  - title: "Exploring antimicrobial resistance determinants in the Neanderthal microbiome"
+    journal: "Microbiology Spectrum"
+    date: "2024-06-25"
+    doi: "10.1128/spectrum.02662-23"
+  - title: "Millennial-Scale Microbiome Analysis Reveals Ancient Antimicrobial Resistance Conserved Despite Modern Selection Pressures"
+    journal: "BMC Environmental Microbiome"
+    date: "2024-05-21"
+    doi: "10.21203/rs.3.rs-4539771/v1"
+  # Add more publications following this structure
+
+awards:
+  - title: "Senior Research Fellowship"
+    organisation: "Indian Council of Medical Research"
+    date: "May 2022"
+    description: "Awarded for the project titled ‘Investigating Hypothetical Relationship between Irrational Antibiotic Use and Colon Carcinogenesis’."
+  - title: "Summer Research Fellowship"
+    organisation: "Indian National Science Academy"
+    date: "2013"
+
+skills:
+  laboratory_skills:
+    - "Microbiological and Molecular Biology techniques"
+    - "Confocal and Epi-fluorescent microscopy"
+    - "Flow cytometry"
+    - "Small Animal Drug Administration and Anaesthesia"
+  technical_skills:
+    - "Linux environment"
+    - "Shell scripting"
+    - "Python"
+    - "Genomic Data Analysis"
+  languages:
+    - "Tamil (Native)"
+    - "English (Technical proficiency)"
+    - "Hindi (Intermediate)"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
